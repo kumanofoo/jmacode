@@ -1,0 +1,9 @@
+[package]
+name = "jmacode"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
+jma = { version = "0.3", git = "https://github.com/kumanofoo/jma" }
